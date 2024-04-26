@@ -36,7 +36,7 @@ int decimalToBinary(char *decimal)
 int main()
 {
     testRunner(); // first, we run our tests
-    char input[] = "011101";
+    char input[] = "10";
     int x = decimalToBinary(input);
     printf("The result is: %d\n", x);
     return 0;
